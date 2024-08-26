@@ -15,7 +15,7 @@ import Contact from "./Pages/Contact.jsx";
 import NotFound from "./Pages/NotFound.jsx";
 import AllBlogs from "./Pages/AllBlogs.jsx";
 import SpecificBlog from "./Pages/SpecificBlog.jsx";
-import SignUp from "./Pages/signUp.jsx";
+import SignUp from "./Pages/SignUp.jsx";
 import SignIn from "./Pages/SignIn.jsx";
 import VerifyOtp from "./Pages/VerifyOtp.jsx";
 import PaymentForm from "./components/PaymentForm.jsx";
