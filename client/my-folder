@@ -1,0 +1,5 @@
+
+VITE_APP_BACKEND_URL = http://localhost:8000/api/v1
+VITE_APP_BACKEND = http://localhost:8000 
+VITE_CLOUDINARY_CLOUD_NAME =dgrbwkoxb 
+

@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&family=Outfit&display=swap");
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maindiv {
+    font-family: Urbanist;
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(244, 244, 244);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightblock{
+    width: 100%;
+    height: 100%;
+    /* background-color: red;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* padding: 0 10px; */
+    /* padding-top: 10px; */
+}
+
+
+.mainContent{
+    height: 100%;
+    width: 100%;
+    /* background-color: indigo; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.mainName{
+    height: 10%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
+}
+.bigName{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    /* background-color: teal; */
+}
+.heading{
+    font-size: 35px;
+}
+.descHeading{
+    font-size: 15px;
+    color: rgb(159, 159, 159);
+}
+
+.desc{
+    height: 20%;
+    width: 100%;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.progress{
+    height: 25%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.stepProgress{
+    height: 95%;
+    width: 55%;
+    background-color: white; 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(51, 108, 188); */
+
+}
+
+.cirleProgress{
+    height: 95%;
+    width: 40%;
+    background-color: white; 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    /* background-color: rgb(146, 165, 37); */
+
+}
+
+.circleHead{
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 5px 30px;
+    font-size: 15px;
+}
+.circleSection{
+    height: 85%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 0 30px; */
+    gap: 5px;
+}
+.circletext{
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: aquamarine; */
+    /* contain: content; */
+    /* align-items: center; */
+}
+.innerText{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0 30px; */
+}
+
+.stepmid{
+    height: 43%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.steptext{
+    height: 40%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.stepbottom{
+    height: 30%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: start;
+    gap: 200px;
+    /* padding: 0 30px; */
+
+}
+.bottomcontent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(125, 92, 49); */
+
+}
+
+.midBlock{
+    height: 65%;
+    width: 100%;
+    /* background-color: rgb(197, 188, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.midleft{
+    height: 100%;
+    width: 65%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding:10px 0;
+}
+
+.midright{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding-top: 25px;
+
+}
+
+.countblock{
+    height: 20%;
+    width: 93%;
+    /* background-color: rgb(168, 82, 82);  */
+    border-radius: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* padding-left:30px; */
+    gap: 30px;
+}
+
+.countblockdesc{
+    height: 60%;
+    width: 45%;
+    font-size: 16px;
+    background-color: white; 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-left:25px ;
+}
+
+.bargraph{
+    height: 50%;
+    width: 100%;
+    font-size: 16px;
+    /* background-color: rgb(55, 0, 255);  */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bargraph h2{
+    /* height: 25%; */
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.barTitle{
+    height: 10%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.bar{
+    height: 90%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar{
+    height: 45%;
+    width: 70%;
+    font-size: 25px;
+    background-color: white; 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10px; */
+    /* padding-left: 15px; */
+    /* contain: content; */
+}
+.calendarContainer {
+    width: 100%; 
+    height: 400px;  
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+  
+
+.activity{
+    height: 55%;
+    width: 70%;
+    /* background-color: rgb(90, 205, 203); */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.acthead{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgb(90, 103, 205); */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+}
+.singleact{
+    height: 12%;
+    width: 100%;
+    background-color: #7165f048;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* border: 1px solid #DFDBD8; */
+}
+.priority{
+    height: 30%;
+    width: 93%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+
+}
+.priorhead{
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(90, 205, 103); */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.priorcards{
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(161, 205, 90); */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: start;
+    border-radius: 15px;
+    padding-left: 30px;
+    border: 1px solid #DFDBD8;
+}
+
+
+
+.cardinfo{
+    height: 100%;
+    width: 65%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.cardstack{
+        height: 100%;
+        width: 35%;
+        /* background-color: violet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.endBlock{
+    height: 500px;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chartEnd{
+    height: 90%;
+    width: 95%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepProgress1{
+    height: 100%;
+    width: 55%;
+    /* background-color: red;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stepmid1{
+    height: 43%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.steptext1{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.steptext1 p{
+    font-size: 18px;
+}
+.steptext1 h2{
+    font-size: 35px;
+}
+
+.stepbottom1{
+    height: 30%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: start;
+    gap: 200px;
+    padding: 0 30px;
+
+}
+.circularProgress{
+    height: 100%;
+    width: 45%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomcontent2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    /* background-color: rgb(125, 92, 49); */
+
+}
+@media (max-width:1200px){
+    .priorcards{    
+        padding-left: 0px;
+    }
+    .cardinfo{
+        height: 100%;
+        width: 55%;
+        padding-left: 20px;
+
+    }
+    .cardstack{
+        height: 100%;
+        width: 45%;
+    }
+    .singleact{
+        height: 14%;
+        width: 100%;
+        background-color: #7165f048;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        /* border: 1px solid #DFDBD8; */
+    }
+    
+}
