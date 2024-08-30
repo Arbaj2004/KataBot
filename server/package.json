@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@botpress/client": "^0.29.2",
     "@vercel/node": "^3.2.10",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
