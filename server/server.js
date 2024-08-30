@@ -17,10 +17,10 @@ const app = express();
 
 // 1) GLOBAL MIDDLEWARES
 // Implement CORS
-app.use(cors({
-    origin: process.env.FRONTEND_URL, // Ensure this is the correct frontend URL
-    credentials: true // Allow credentials (cookies, authorization headers, etc.)
-}));
+// app.use(cors({
+//     origin: process.env.FRONTEND_URL, // Ensure this is the correct frontend URL
+//     credentials: true // Allow credentials (cookies, authorization headers, etc.)
+// }));
 
 app.use(express.json()); // To parse JSON data from POST requests
 app.use(cookieParser()); // To parse cookies
