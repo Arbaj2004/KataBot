@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version":2,
     "builds":[
@@ -12,4 +13,20 @@
             "dest":"/"
         }
     ]
+=======
+{
+    "version":2,
+    "builds":[
+        {
+            "src":"*.js",
+            "use":"@verce/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/"
+        }
+    ]
+>>>>>>> a4519656281eff6f209ee46874a74d99ba67bf42
 }
